@@ -1,0 +1,76 @@
+# Build output
+/build/
+/out/
+/dist/
+/target/
+target/
+
+# Compiled objects and binaries
+*.o
+*.a
+*.so
+*.ko
+*.bin
+
+# Kernel / device build artifacts
+*.dtb
+*.dtbo
+*.dts.tmp
+*.cmd
+modules.order
+Module.symvers
+.tmp_versions/
+
+# Images and archives
+*.img
+*.zip
+*.tar
+*.tar.gz
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE / editor files
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node / frontend tooling (web-style stupidOS apps)
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Local working files (never committed; see CLAUDE.md "Working method")
+plan.md
+progress.md
+discussion.md
+vision.md
+
+# Secrets / local configuration
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Test artifacts
+/test-results/
+/coverage/
